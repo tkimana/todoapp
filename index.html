@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
 </head>
 <body>
-   <div>
-       <form class="row g-1">
-            <div class="row ">
-                <input type="text" class="form-control" placeholder="Enter todo list" aria-label="todolist">
-
-            </div>
-       </form>
-   </div> 
+    <div id="container">
+        <h1>To-Do List <i class="fa fa-plus"></i></h1><input type="text" placeholder="Add New Todo">
+        <ul>
+            <li><span><i class="fa fa-trash"></i></span> Go To Maths Class</li>
+            <li><span><i class="fa fa-trash"></i></span> Buy New Clothes</li>
+            <li><span><i class="fa fa-trash"></i></span> Visit George</li>
+        </ul>
+    </div>
 </body>
 </html>
